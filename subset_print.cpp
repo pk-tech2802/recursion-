@@ -13,13 +13,13 @@ void sol(string ip, string op)
     }
 
     char lst = ip[ip.size() - 1];
-    string dm;
-    dm.push_back(lst);
+    string op1=op,op2=op;
+    op2.push_back(lst);
     ip.pop_back();
     // pop out the last char decision is either inclde this char in next stage op or not
     // in op since we are making decsion about char we have to remove it from ip
-    sol(ip, op);
-    sol(ip, op + dm);
+    sol(ip, op1);
+    sol(ip, op2);
 }
 
 int main()
