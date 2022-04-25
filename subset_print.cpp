@@ -1,9 +1,8 @@
 // Recursion really works like magic
-// examplr of input output method
+// example of input output method
 
 #include <bits/stdc++.h>
 using namespace std;
-int s = 1, h = 2, d = 3;
 void sol(string ip, string op)
 {
     if (ip == "")
