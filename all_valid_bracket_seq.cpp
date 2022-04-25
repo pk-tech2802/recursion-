@@ -1,4 +1,4 @@
-// vvimp :- make the choise diagram then code pasrt is cakewack
+// vvimp :- make the choise diagram then code part is cakewalk
 
 #include <bits/stdc++.h>
 using namespace std;
